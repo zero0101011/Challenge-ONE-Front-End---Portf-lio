@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte do Projeto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <title>Meu Portfólio</title>
+    <title>Portfólio Samuel Carlos</title>
 </head>
 
 <body>
     <!-- Menu -->
     <header class="cabecalho">
         <img class="cabecalho__logo" src="assets/vector.png" alt="Logo">
-        <h1 class="cabecalho__titulo">Portifílio Samuel Carlos Front-end </h1>
+        <h1 class="cabecalho__titulo">Samuel Carlos </h1>
         <nav class="navegacao">
             <ul class="navegacao__lista">
                 <li class="navegacao__elemento"><a href="#sobre-mim">Sobre mim</a></li>
@@ -62,18 +62,6 @@
             <li class="habilidades__elemento">
                 <img class="habilidades__icone" src="assets/js_icon.png" alt="JavaScript">
                 <p class="habilidades__nome">JavaScript</p>
-            </li>
-            <li class="habilidades__elemento">
-                <img class="habilidades__icone" src="assets/php_icon.png" alt="PHP">
-                <p class="habilidades__nome">PHP</p>
-            </li>
-            <li class="habilidades__elemento">
-                <img class="habilidades__icone" src="assets/nodejs_icon.png" alt="Node.js">
-                <p class="habilidades__nome">Node.js</p>
-            </li>
-            <li class="habilidades__elemento">
-                <img class="habilidades__icone" src="assets/react_icon.png" alt="React">
-                <p class="habilidades__nome">React</p>
             </li>
             <li class="habilidades__elemento">
                 <img class="habilidades__icone" src="assets/css_icon.png" alt="CSS">
@@ -143,13 +131,7 @@
 
     <!-- Seção de Projetos -->
     <section class="projetos" id="projetos">
-        <h2 class="projetos__titulo">Experiência Profissional</h2>
-
-
-        <button class="projeto__botão_repositorio" ><a href="https://github.com/zero0101011/Challenge-Alura-decodificador-de-texto" target="_blank">Repositório</a></button>
-        <button class="projeto__botão_demo"> <a href="https://challenge-alura-decodificador-de-texto.vercel.app/" target="_blank"> Ver demo</a></button>
-
-
+        <h2 class="projetos__titulo">Projetos</h2>
 
 
         <div class="projetos__conteiner">
@@ -163,19 +145,34 @@
         </div>
         <div class="projetos__conteiner">
             <h3 class="projetos__nome"> Alura Play</h3>
-            <p class="projetos__descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
+            <img class="projeto__imagem" src="./assets/projeto alura play.PNG" alt="Projeto Alura play">
+            <p class="projetos__descricao"> Projeto desenvolvido durante a formação Front-end da ONE com o foco no aprendizado em CSS Flexbox, uma parceria da Alura Latam com a Oracle.</p>
+            <button class="projeto__botão_repositorio" ><a href="https://github.com/zero0101011/aluraplay-projeto-base" target="_blank">Repositório</a></button>
+            <button class="projeto__botão_demo"> <a href="https://aluraplay-projeto-base-blue.vercel.app/" target="_blank"> Ver demo</a></button>
+
         </div>
+
+        <div class="projetos__conteiner">
+            <h3 class="projetos__nome">Landing Page</h3>
+            <img class="projeto__imagem" src="./assets/landing page alura.PNG" alt="landing page">
+            <p class="projetos__descricao"> Projeto desenvolvido durante a formação iniciante em programação da Alura.</p>
+
+
+        </div>
+
+
     </section>
 
     <!-- Seção de Contato -->
     <section class="contato" id="contato">
         <h2 class="contato__titulo">Contato</h2>
-        <form class="contato__formulario">
-            <input class="contato__campo" type="text" placeholder="Nome">
-            <input class="contato__campo" type="email" placeholder="E-mail">
-            <textarea class="contato__campo contato__campo--textarea" placeholder="Mensagem"></textarea>
-            <button class="contato__botao" type="submit">Enviar</button>
-        </form>
+        <p class="contato__paragrafo">Vamos nos conectar!</p>
+
+        <div class="contato__botões">
+            <button> <a href="https://www.linkedin.com/in/samuel-carlos-830117222/"></a>Linkedin</button>
+            <button> <a href="https://github.com/zero0101011">Git Hub</a></button>
+        </div>
+     
     </section>
 </body>
 
