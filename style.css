@@ -41,10 +41,108 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 1rem;
+    background-color: var(--cor-de-fundo-menu);
+
+}
+
+.cabecalho__titulo {
+    font-size: 1.02rem;
+    font-weight: 700;
 }
 
 .cabecalho__logo {
     max-width: 80px;
     margin-right: 8px;
+    
 }
 
+.navegacao{
+    display: block;
+    padding: 0.5rem;
+    margin-left: auto;
+    
+}
+
+.navegacao__lista {
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem;
+   
+   
+}
+
+/* ------------------------------ Seção Apresentação ------------------------------*/
+
+.apresentacao {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.apresentacao__text-content {
+    flex: 1;
+    max-width: 600px;
+    padding-right: 2rem;
+}
+
+.apresentacao__titulo {
+    font-size: 3.25rem;
+    color: #333;
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.apresentacao__subtitulo {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+.redes {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.4375rem;
+}
+
+.redes__elemento a {
+    text-decoration: none;
+   color: #464646;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.redes__elemento img {
+    width: 12px;
+    height: 12px;
+}
+
+/* Estilizando a foto */
+.apresentacao__foto-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao__foto {
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: auto;
+}
