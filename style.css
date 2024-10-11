@@ -77,8 +77,8 @@ a {
 .apresentacao {
     background-color: #f4f4f4;
     padding: 2rem;
-    display: flex;
-    justify-content: center;
+    background-color: var(--cor-de-fundo-menu);
+
 }
 
 .apresentacao__conteiner {
@@ -93,6 +93,8 @@ a {
     flex: 1;
     max-width: 600px;
     padding-right: 2rem;
+    margin-left: 38px;
+    
 }
 
 .apresentacao__titulo {
@@ -114,7 +116,7 @@ a {
     padding: 0;
     margin-top: 1.5rem;
     display: flex;
-    gap: 1rem;
+    gap: 100px;
     font-size: 1.4375rem;
 }
 
@@ -124,7 +126,7 @@ a {
     font-weight: bold;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 2rem;
 }
 
 .redes__elemento img {
@@ -135,14 +137,40 @@ a {
 /* Estilizando a foto */
 .apresentacao__foto-content {
     flex: 1;
-    display: flex;
-    justify-content: center;
+    
+    
 }
 
 .apresentacao__foto {
-    width: 368px;
-    height: 368px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     object-fit: cover;
-    margin-left: auto;
+    margin-left: 100%;
+}
+
+
+/* ------------------------------ Seção Sobre mim ----------------------------------*/
+
+.sobre-mim {
+    background-color: #eaf2fd;
+    padding: 64px;
+    height: 383px;
+    width: 100%;
+    
+
+}
+
+.sobre-mim__titulo {
+    font-size: 2rem;
+    color: #464646;
+    font-weight: 700;
+    
+   
+}
+
+.sobre-mim__texto {
+    font-size: 1rem;
+    width: 80%;
+    margin-top: 1rem;
 }
