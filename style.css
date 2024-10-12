@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
   }
 
   :root {
@@ -174,3 +175,5 @@ a {
     width: 80%;
     margin-top: 1rem;
 }
+
+/*------------------------------ Seção de Habilidades ------------------------------*/
