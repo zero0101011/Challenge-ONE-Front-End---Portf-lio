@@ -177,3 +177,186 @@ a {
 }
 
 /*------------------------------ Seção de Habilidades ------------------------------*/
+/*
+.habilidades {
+    height: 383px;
+    width: 100%;
+    
+    
+    
+}
+
+.habilidades__lista {
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   justify-content: space-around;
+   padding: 30px;
+   gap: 20px;
+}
+
+.habilidades__elemento {
+    
+    padding: 5rem;
+    max-width: 42px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #fd0000;
+    flex-grow: 1;
+    width: 42px;
+    
+    
+    
+   
+}
+
+
+.habilidades__titulo {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    
+}
+
+.habilidades__nome{
+    display: flex;
+    justify-content: center;
+    
+}
+    */
+/* Seção de Habilidades */
+.habilidades {
+    padding: 3rem 1.5rem; /* Espaçamento ao redor da seção */
+    background-color: #f5f5f5; /* Cor de fundo leve */
+    text-align: center; /* Centraliza o conteúdo da seção */
+}
+
+.habilidades__titulo {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333; /* Cor do título */
+}
+
+.habilidades__lista {
+    display: flex;
+    justify-content: center; /* Centraliza a lista */
+    flex-wrap: wrap; /* Permite quebra para caber em telas menores */
+    gap: 2rem; /* Espaço entre os itens */
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.habilidades__elemento {
+    background-color: #fff; /* Fundo branco para os itens */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 1.5rem; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
+    text-align: center; /* Centraliza o conteúdo de cada item */
+    width: 150px; /* Largura fixa para os elementos */
+}
+
+.habilidades__elemento:hover {
+    transform: translateY(-10px); /* Efeito de elevação ao passar o mouse */
+}
+
+.habilidades__icone {
+    width: 80px; /* Tamanho da imagem do ícone */
+    height: 80px;
+    object-fit: contain; /* Garante que a imagem mantenha proporção */
+    margin-bottom: 1rem; /* Espaço abaixo do ícone */
+}
+
+.habilidades__nome {
+    font-size: 1.2rem;
+    font-weight: 600; /* Texto em negrito */
+    color: #333; /* Cor do texto */
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 768px) {
+    .habilidades__elemento {
+        width: 120px; /* Reduz a largura para telas menores */
+    }
+
+    .habilidades__icone {
+        width: 60px;
+        height: 60px; /* Reduz o tamanho dos ícones */
+    }
+
+    .habilidades__nome {
+        font-size: 1rem; /* Ajusta o tamanho do texto */
+    }
+}
+
+
+
+.hobbies {
+    padding: 3rem 1.5rem; /* Espaçamento ao redor da seção */
+    background-color: #f5f5f5; /* Cor de fundo diferenciada */
+    text-align: center; /* Centraliza o conteúdo da seção */
+}
+
+.hobbies__titulo {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #444; /* Cor do título */
+}
+
+.hobbies__lista {
+    display: flex;
+    justify-content: center; /* Centraliza a lista */
+    flex-wrap: wrap; /* Permite quebra para caber em telas menores */
+    gap: 2rem; /* Espaço entre os itens */
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.hobbies__elemento {
+    background-color: #fff; /* Fundo branco para os itens */
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 1.5rem; /* Espaçamento interno */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra um pouco mais intensa */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito suave ao passar o mouse */
+    text-align: center; /* Centraliza o conteúdo de cada item */
+    width: 160px; /* Largura fixa para os elementos */
+}
+
+.hobbies__elemento:hover {
+    transform: translateY(-10px); /* Elevação ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra maior ao hover */
+}
+
+.hobbies__icone {
+    width: 70px; /* Tamanho da imagem do ícone */
+    height: 70px;
+    object-fit: contain; /* Garante que a imagem mantenha proporção */
+    margin-bottom: 1rem; /* Espaço abaixo do ícone */
+}
+
+.hobbies__nome {
+    font-size: 1.1rem;
+    font-weight: 500; /* Peso médio */
+    color: #555; /* Cor do texto */
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 768px) {
+    .hobbies__elemento {
+        width: 130px; /* Reduz a largura para telas menores */
+    }
+
+    .hobbies__icone {
+        width: 60px;
+        height: 60px; /* Reduz o tamanho dos ícones */
+    }
+
+    .hobbies__nome {
+        font-size: 1rem; /* Ajusta o tamanho do texto */
+    }
+}
